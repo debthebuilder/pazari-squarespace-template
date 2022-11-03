@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  padding: 2% 5%;  
+  overflow-x: hidden;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 31px;
+    line-height: 43px;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2% 5%;
+}
+
+.portfolio-link {
+    display: block;
+    width: 100%;
+}
+
+.portfolio-img {
+    width: 100%;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
